@@ -5,13 +5,13 @@ h3.text-center Adding New Article
       .form-group
         .control-label.col-md-1
           = f.label :title
-        .col-md-11
+        .col-md-8
           = f.text_field :title, class: 'form-control', placeholder: 'Title of article', autofocus: true
       .form-group
         .control-label.col-md-1
           = f.label :body
-        .col-md-11
+        .col-md-8
           = f.text_area :body, rows: 10, class: 'form-control', placeholder: 'Body of article'
       .form-group
-        .col-md-offset-1.col-md-11
+        .col-md-offset-1.col-md-8
           = f.submit class: 'btn btn-primary btn-lg pull-right'
